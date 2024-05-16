@@ -1,0 +1,17 @@
+public class Reprodutor implements ReprodutorMusical {
+
+    @Override
+    public void tocar() {
+        System.out.println("Musica tocando");
+    }
+
+    @Override
+    public void pausar() {
+        System.out.println("Musica pausada");
+    }
+
+    @Override
+    public void selecionarMusica(String musica) {
+        System.out.println("Selecionando musica");
+    }
+}
